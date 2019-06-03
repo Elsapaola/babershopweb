@@ -1,0 +1,19 @@
+.logo {
+    width: 120px;
+}
+
+.navbar-dark {
+    background-color: $eerie-black!important;
+    color: white;
+    font-family: $font-stack;
+    font-weight: $regular;
+}
+
+a {
+    &:hover {
+        color: $fuzzy-wuzzy!important;
+    }
+    &:active {
+        color: $fuzzy-wuzzy!important;
+    }
+}
