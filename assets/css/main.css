@@ -9656,7 +9656,6 @@ h3 {
   }
 }
 body {
-  font: 100% Roboto, sans-serif;
   color: #fff;
   padding: 0px;
   margin: 0px;
@@ -9825,6 +9824,10 @@ section {
 
 .btn-secondary {
   border-radius: 26px !important;
+}
+
+.button {
+  font-family: "Roboto", sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */
