@@ -9718,7 +9718,7 @@ table {
 
 h1 {
   font-family: "Playfair Display", serif;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 4.3rem;
   font-style: italic;
 }
@@ -9765,7 +9765,7 @@ p {
   font-family: "Playfair Display", serif;
   margin-left: 5rem;
   font-style: italic;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .article__subtitulos {
