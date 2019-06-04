@@ -9717,9 +9717,10 @@ table {
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
   font-size: 4.3rem;
+  font-style: italic;
 }
 
 p {
@@ -9750,7 +9751,7 @@ p {
 
 .destacado {
   background-color: #121619;
-  color: #fff;
+  color: #fff !important;
 }
 
 .article2_Page_navigation {
@@ -9761,8 +9762,10 @@ p {
   color: #6C6E70;
   text-align: justify;
   font-size: 1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Playfair Display", serif;
   margin-left: 5rem;
+  font-style: italic;
+  font-weight: 700;
 }
 
 .article__subtitulos {
@@ -9775,6 +9778,14 @@ p {
 
 .article__texto {
   padding: 2rem 9rem 6rem 2rem;
+}
+
+.page-item:last-child .page-link {
+  color: #6C6E70;
+}
+
+.page-link {
+  color: #6C6E70;
 }
 
 .logo {

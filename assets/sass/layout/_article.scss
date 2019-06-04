@@ -19,7 +19,7 @@
 
 .destacado {
     background-color: $eerie-black;
-    color: $white;
+    color: $white!important;
 }
 
 .article2_Page_navigation {
@@ -30,8 +30,11 @@
     color: $nickel;
     text-align: justify;
     font-size:$large;
-    font-family: $font-stack;
+    font-family: $font-titulo;
     margin-left: 5rem;
+    font-style: italic;
+    font-weight: $bold;
+    
 }
 
 .article__subtitulos {
@@ -44,4 +47,12 @@
 
 .article__texto {
     padding: 2rem 9rem 6rem 2rem;
+}
+
+.page-item:last-child .page-link {
+    color: $nickel;
+}
+
+.page-link {
+    color: $nickel
 }
